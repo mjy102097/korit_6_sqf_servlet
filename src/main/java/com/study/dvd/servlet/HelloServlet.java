@@ -28,9 +28,9 @@ public class HelloServlet extends HttpServlet {
 //				+ "<h2>"+ name + "</h2>"
 //				+ "</body>"
 //				+ "</html>");
-//
+//	
 //	}
-	
+
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String name = req.getParameter("name"); // parameter는 무조껀 문자열!
